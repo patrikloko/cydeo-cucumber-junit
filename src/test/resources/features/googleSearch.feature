@@ -4,4 +4,4 @@ Feature: Google search functionality
 
   Scenario: Search page title verification
     When user is on Google search page
-    Then user should see title is Googled
+    Then user should see title is google
