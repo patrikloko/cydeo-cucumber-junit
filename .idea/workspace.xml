@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e243b01-8ac4-4626-b65d-779c45d148e1" name="Changes" comment="i">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Wiki_StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Wiki_StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/DataTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/DataTable_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,45 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Wikipedia Search Functionality Header Verification">
+  <component name="RunManager" selected="Cucumber Java.Feature: dataTables">
+    <configuration name="Feature: dataTables" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cydeo-cucumber-junit" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: dataTables" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: List of fruits I like" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" />
+      <option name="GLUE" value="com.cydeo.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cydeo-cucumber-junit" />
+      <option name="NAME_FILTER" value="^List of fruits I like$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^List of fruits I like$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: List of fruits I like" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Wikipedia Search Functionality Header Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" />
@@ -114,9 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: dataTables" />
+        <item itemvalue="Cucumber Java.Scenario: List of fruits I like" />
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Header Verification" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification" />
-        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +181,7 @@
       <workItem from="1677393786650" duration="15889000" />
       <workItem from="1677517236176" duration="4000" />
       <workItem from="1677519448832" duration="31000" />
-      <workItem from="1677652538412" duration="4096000" />
+      <workItem from="1677652538412" duration="4822000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1677059389829</created>
@@ -197,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677655856042</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="i">
+      <created>1677656878233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677656878233</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
