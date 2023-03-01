@@ -24,9 +24,21 @@ public class Hooks {
         System.out.println("====only apply to scenarios with @db tag");
     }
     @After
-    public void teardownScenario() {
-        System.out.println("====Setting up browser using cucumber @After");
-        System.out.println("====Scenario ended/ Take a screenshot if failed!");
+    public void teardownScenario(Scenario scenario) {
+
+//scenario .is failed------> if scenario failed take screenshot if scenario pass no screenshot
+        if (scenario.isFailed()){
+
+            byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot,"image/png",scenario.getName());
+        }
+
+
+        Driver.closeDriver();
+
+
+      //  System.out.println("====Setting up browser using cucumber @After");
+      //  System.out.println("====Scenario ended/ Take a screenshot if failed!");
 
     }
     @BeforeStep
