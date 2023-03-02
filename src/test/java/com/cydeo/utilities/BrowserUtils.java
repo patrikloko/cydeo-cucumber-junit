@@ -4,8 +4,11 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public class BrowserUtils {
@@ -64,5 +67,33 @@ for given duration
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until(ExpectedConditions.invisibilityOf(webElement));
     }
+
+    /**
+     * This method will on expected value and verify actual URL CONTAINS the value
+     * @param expectedInUrl
+     */
+    public static void verifyUrlContains(String expectedInUrl){
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInUrl));
+    }
+    /**
+     * This method will accept a dropdown as a WebElement
+     * and return all the options' text in a List of String.
+     * @param dropdownElement
+     * @return List<String> actualOptionsAsString
+     */
+    public static List<String> dropdownOptionsAsString(WebElement dropdownElement){
+        Select select = new Select(dropdownElement);
+
+        List<WebElement> actualOptionsAsWebElement= select.getOptions();
+
+        List<String>actualOptions= new ArrayList<>();
+
+        for (WebElement each : actualOptionsAsWebElement) {
+            actualOptions.add(each.getText());
+        }
+        return actualOptions;
+    }
+
+
 
 }
