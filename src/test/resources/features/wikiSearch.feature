@@ -22,7 +22,7 @@ Feature: Wikipedia search functionality and verification
     Then User sees "<expectedTitle>" is in the wiki title
     Then User sees "<expectedMainHeader>" is in the main header
 
-
+@soccerPlayers
     Examples: search values we are going to be using this scenario is as below
       | searchValue       | expectedTitle     | expectedMainHeader |
       | searchValue       | expectedTitle     | expectedMainHeader |
@@ -32,7 +32,7 @@ Feature: Wikipedia search functionality and verification
       | Chuck Norris      | Chuck Norris      | Chuck Norris       |
       | Antony Hopkins    | Antony Hopkins    | Antony Hopkins     |
 
-
+@scientist
     Examples:
       | searchValue  | expectedTitle | expectedMainHeader |
       | Marie Curie  |    | Marie Curie        |

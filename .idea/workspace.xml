@@ -7,7 +7,7 @@
     <list default="true" id="8e243b01-8ac4-4626-b65d-779c45d148e1" name="Changes" comment="i">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,15 +98,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Wikipedia Search Functionality Header Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Positive login scenario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" />
       <option name="GLUE" value="com.cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cydeo-cucumber-junit" />
-      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Header Verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Header Verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Header Verification" />
+      <option name="NAME_FILTER" value="^Positive login scenario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Positive login scenario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Positive login scenario" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -118,15 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Wikipedia Search Functionality Title Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Wikipedia Search Functionality Header Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" />
       <option name="GLUE" value="com.cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cydeo-cucumber-junit" />
-      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Title Verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Title Verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Title Verification" />
+      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Header Verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Header Verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Header Verification" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -156,10 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Positive login scenario" />
         <item itemvalue="Cucumber Java.Feature: dataTables" />
         <item itemvalue="Cucumber Java.Scenario: List of fruits I like" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Header Verification" />
-        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,10 @@
       <workItem from="1677393786650" duration="15889000" />
       <workItem from="1677517236176" duration="4000" />
       <workItem from="1677519448832" duration="31000" />
-      <workItem from="1677652538412" duration="13143000" />
+      <workItem from="1677652538412" duration="14057000" />
+      <workItem from="1677691263536" duration="2455000" />
+      <workItem from="1677696608631" duration="62000" />
+      <workItem from="1677742383457" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1677059389829</created>
@@ -254,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677659116593</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="i">
+      <created>1677688649754</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677688649754</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
